@@ -2,8 +2,10 @@ unique_ids:
   forms:
     Form1: OAI67VPJD5WDXHBNYEXBMQXUX3Q7IJT7
   modules: {}
-  server_modules: {}
+  server_modules:
+    ServerModule1: '1718564088509154429152340.73196'
   assets:
+    icon large.jpg: '1718564060247951136632358.9221'
     standard-page.html: EEVA6ISSH6VDLZV62L4VAA6NY6YZBOSO
     theme.css: 3QBEKZRCZ5BNJQTAJBICFXL5Z4YRLS7L
   scripts: {}
