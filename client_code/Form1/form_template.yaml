@@ -41,8 +41,18 @@ components:
       properties: {height: 91}
       type: TextArea
       layout_properties: {grid_position: 'SRRFFK,EIWSRM'}
+    - name: label_5
+      properties: {text: 'How likely you would be to recommend us to a friend or colleague?'}
+      type: Label
+      layout_properties: {grid_position: 'CRWZOU,VRAMLG'}
+    - name: recommend_box
+      properties:
+        items: [Very unlikely, Unlikely, Likely, Very likely]
+      type: DropDown
+      layout_properties: {grid_position: 'CRWZOU,ZYPNXX'}
+      data_bindings: []
     - name: submit_button
       properties: {text: submit, role: filled}
       type: Button
-      layout_properties: {grid_position: 'FUSQRX,PKKDJD'}
+      layout_properties: {grid_position: 'BXKBEE,KZMNEY'}
       event_bindings: {click: submit_button_click}

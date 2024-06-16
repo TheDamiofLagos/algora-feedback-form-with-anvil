@@ -12,3 +12,24 @@ services:
   client_config: {}
   server_config: {}
 metadata: {title: Algora Feedback Form, logo_img: 'asset:icon large.jpg'}
+db_schema:
+  feedback:
+    client: none
+    server: full
+    columns:
+    - name: name
+      admin_ui: {width: 200, order: 0}
+      type: string
+    - name: email
+      admin_ui: {width: 200, order: 1}
+      type: string
+    - name: feedback
+      admin_ui: {width: 200, order: 2}
+      type: string
+    - name: created
+      admin_ui: {order: 3, width: 200}
+      type: datetime
+    - name: recommend
+      admin_ui: {width: 200, order: 2.5}
+      type: string
+    title: feedback
